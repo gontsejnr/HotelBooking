@@ -176,7 +176,7 @@ a.pure-button-primary {
     min-height: 12%;
     z-index: 2;
     background: white;
-
+    
 }
 
 /* We want to give the content area some more padding */
@@ -390,21 +390,20 @@ input[type="search"] {
 }
 
 .column {
-    float: left;
-    width: 33.33%;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }  
+  float: left;
+  width: 25%;
+  margin: 5px;
+  padding: 10px;
+  height: 300px; 
+  align-items: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 

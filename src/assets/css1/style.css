@@ -3,7 +3,8 @@ body {
 }
 .page-content {
 	width: 100%;
-	margin:  0 auto;
+    margin:  0 auto;
+    padding: 5%;
 	display: flex;
 	display: -webkit-flex;
 	justify-content: center;
@@ -173,7 +174,7 @@ body {
 .inner .form-heading h3 {
 	font-weight: 700;
 	font-size: 30px;
-	color: #fff;
+	color: #34495e;
 	margin: 0;
     padding: 0 0 35px;
 }
@@ -206,7 +207,7 @@ body {
     left: 10px;
     font-size: 16px;
     font-weight: 400;
-    color: #fff;
+    color: #34495e;
     transform-origin: 0 0;
     transition: all .2s ease;
     -moz-transition: all .2s ease;
@@ -218,7 +219,7 @@ body {
     display: block;
     float: none;
     padding-right: 20px;
-    color: #fff;
+    color: #34495e;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 20px;
@@ -252,7 +253,7 @@ body {
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    color: #fff;
+    color: #34495e;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -269,13 +270,13 @@ body {
     color: #55e8d5;
 }
 input::placeholder {
-    color: #fff;
+    color: #34495e;
 }
 input:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: #fff;
+   color: #34495e;
 }
 input::-ms-input-placeholder { /* Microsoft Edge */
-   color: #fff;
+   color: #34495e;
 }
 .inner .form-row .form-holder select {
    
@@ -293,7 +294,7 @@ input::-ms-input-placeholder { /* Microsoft Edge */
 	background: transparent;
     border-bottom: 1px solid;
     border-bottom-color: rgba(255,255,255,0.3);
-    color: #fff;
+    color: #34495e;
     position: relative;
     background: 0 0;
     z-index: 1;
@@ -306,7 +307,7 @@ input::-ms-input-placeholder { /* Microsoft Edge */
     right: 6%;
     font-size: 19px;
     cursor: pointer;
-    color: #fff;
+    color: #34495e;
 }
 .inner .form-row .form-holder.form-holder-2 .select-btn {
 	right: 3.5%;
@@ -325,13 +326,13 @@ input::-ms-input-placeholder { /* Microsoft Edge */
 	width: 13.6%;
 }
 .inner .form-row .form-holder select option {
-	background: #fff;
+	background: white;
 	color: #666;
 }
 .inner .form-row .form-holder .ui-datepicker-trigger {
     background: transparent;
     border: none;
-    color: #fff;
+    color:#34495e;
     font-size: 19px;
     position: absolute;
     cursor: pointer;
@@ -363,7 +364,7 @@ input::-ms-input-placeholder { /* Microsoft Edge */
 	padding-bottom: 0;
 }
 .inner .table-responsive tbody td {
-	color: #55e8d5;
+	color: #34495e;
 	font-size: 18px;
 	font-weight: 700;
 	padding-bottom: 25px;
